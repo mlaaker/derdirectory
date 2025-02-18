@@ -1,0 +1,11 @@
+{
+  "company":"Renew Home, Inc.",
+  "programName":"OhmConnect",
+  "url":"https://www.ohmconnect.com/",
+  "markets":["pge","sce","sdge"],
+  "supportedDevices": {
+    "outlets":["tp-link-kasa-kp125m"],
+    "water-heaters":["",""],
+    "thermostats":["",""]
+  }
+}
