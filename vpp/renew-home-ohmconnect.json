@@ -4,8 +4,8 @@
   "url":"https://www.ohmconnect.com/",
   "markets":["pge","sce","sdge"],
   "supportedDevices": {
-    "outlets":["tp-link-kasa-kp125m"],
-    "water-heaters":["",""],
-    "thermostats":["",""]
+    "outlets":["tp-link-kasa-kp125m","tp-link-tapo-p115"],
+    "water-heaters":["rheem-proterra-proph65-t2-rh375-s"],
+    "thermostats":["google-nest-learning-thermostat-4g","google-nest-thermostat-ga01334-us","ecobee-ecobee3-lite"]
   }
 }
