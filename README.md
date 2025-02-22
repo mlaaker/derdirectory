@@ -4,3 +4,4 @@ Intended to document (in a standardized fashion) the various interconnection and
 See examples:
 * [Kasa Smart Wi-Fi Plug Slim with Energy Monitoring KP125M](https://github.com/mlaaker/derdirectory/blob/main/devices/outlets/tp-link-kasa-kp125m.json) (See [all devices…](https://github.com/mlaaker/derdirectory/tree/main/devices))
 * [Renew Home OhmConnect](https://github.com/mlaaker/derdirectory/blob/main/vpp/renew-home-ohmconnect.json) (See [all VPPs…](https://github.com/mlaaker/derdirectory/tree/main/vpp))
+* [Renew Home OhmConnect](https://github.com/mlaaker/derdirectory/blob/main/devices/hubs/home-assistant-yellow.json) (See [all Hubs…](https://github.com/mlaaker/derdirectory/tree/main/hubs))
