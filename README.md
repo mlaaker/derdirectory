@@ -1,5 +1,7 @@
 # DER Directory
-Programmatically-accessible catalog of the various interconnection and management opportunities as well as security characteristics of Distributed Energy Resources (DER) devices (whether for consumer or commercial usage) to outline which products may or may not work with your smart home network (Hubs) and/or [Virtual Power Plant (VPP)](https://rmi.org/clean-energy-101-virtual-power-plants/) provider(s).
+## _A [Homebrew-style](https://brew.sh/) catalog & API for connected home/business energy-making/saving devices & the virtual power plants with which they can connect_
+Programmatically-accessible catalog of the various interconnection and management opportunities as well as security characteristics of Distributed Energy Resources (DER) devices (whether for consumer or commercial usage) to outline which products may or may not work with your smart home network (Hubs) and/or [Virtual Power Plant (VPP)](https://rmi.org/clean-energy-101-virtual-power-plants/) provider(s). By exposing this catalog in this manner, anyone can create/edit device, hub, and VPP 'recipes' to ensure the community has the latest information on these devices' capabilities and connections. 
+
 
 
 ### Uses
