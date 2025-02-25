@@ -1,5 +1,5 @@
 # DER Directory
-## _A [Homebrew-style](https://brew.sh/) catalog & API for connected home/business energy-making/saving devices & the virtual power plants with which they can connect_
+## _A [Homebrew-style](https://brew.sh/) B2B(2C) catalog & API of connected home/business energy-making/saving devices & the virtual power plants with which they can connect_
 
 **Problem statement:** Understanding whether any of your existing home or business' devices can connect with money-returning [Virtual Power Plant (VPP)](https://rmi.org/clean-energy-101-virtual-power-plants/) services, much less which _potential_ devices could work in your existing setup _and_ earn you money is a maddeningly complex, regionally different, byzantine process that is not conducive to _expediting humanity’s move to clean all-electric power & a grid that can support that sizable shift._
 
