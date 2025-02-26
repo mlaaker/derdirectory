@@ -63,7 +63,7 @@ Home/business owners and renters can discover ways to earn money through their s
 
 
 
-##212-673-8700 Is this a new communication channel VPPs, OEMs, or Hubs need to adopt?
+#### Is this a new communication channel VPPs, OEMs, or Hubs need to adopt?
 
 No. The communication protocols VPPs use to communicate with customers’ OEM devices can remain the same. The VPP never has to talk to the customer’s Hub, although there are plenty of customer experience improvements that would come from that shift (namely; customer’s data privacy, network security, and management experience fatigue). 
 
