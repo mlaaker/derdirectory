@@ -21,10 +21,50 @@ Imagine if your home-/business-level management layer (a Hub, like your Alexa, G
 * **Hub compatibility** - _(input: product-name, hub-name)_ return true/false for whether the hub supports this device type
 
 
-### Reference
+### Examples
 
-See examples:
+The following are examples of the community-editable configuration files that would provide the data to the API for this project:
 * [Kasa Smart Wi-Fi Plug Slim with Energy Monitoring KP125M](https://github.com/mlaaker/derdirectory/blob/main/devices/outlets/tp-link-kasa-kp125m.json) _(See [all devices…](https://github.com/mlaaker/derdirectory/tree/main/devices))_
 * [Renew Home OhmConnect](https://github.com/mlaaker/derdirectory/blob/main/vpp/renew-home-ohmconnect.json) _(See [all VPPs…](https://github.com/mlaaker/derdirectory/tree/main/vpp))_
 * [Home Assistant Yellow](https://github.com/mlaaker/derdirectory/blob/main/devices/hubs/home-assistant-yellow.json) _(See [all Hubs…](https://github.com/mlaaker/derdirectory/tree/main/devices/hubs))_
 
+
+
+### FAQs
+
+#### Who has to participate for this to have value?
+Value from this project can be seen in a number of ways (see FAQs below), but for any value to be accrued, at least two things need to happen:
+
+1. **Contributions of data**: ideally, OEM manufacturers would begin providing the data as the technical owners who know the most details about their products. However, the Homebrew project has shown that individuals, customers, home/small businesses owners willingly provide far more onerous details and solutions On their own as they improve their home management layer (Hub) experience. Contributions could easily be made by anyone with a GitHub account and a browser.
+2. **Exposure of data**: At present, the biggest point of leverage for the use of the data would be in the home management layer (hubs) as they would provide (with a single integration) home/business owners (who already have these Hub devices installed) visibility to the VPP enrollment, device compliance, and additional device compatibility opportunities. 
+
+
+
+#### What does an device manufacturer (OEM) get?
+
+By contributing up-to-date information about their devices, OEMs can increase the sales of their devices (and the kickbacks VPPs many times offer them from successful enrollments) by increasing the chances of home/business owners discovering their products are available, compatible with their systems, and verified to work with a local VPP. 
+​
+
+#### What does a VPP get? 
+
+By enabling Hubs to expose awareness of available VPPs to customers, AND attestation of which devices they currently own which can be leveraged by the VPP, AND then surface which additional OEM devices could further increase their earnings while working with the customer’s system 
+
+
+
+#### What does a utility get?
+
+To meet the dramatic increase in power generation needs in a world where utilities physically cannot build the infrastructure fast enough, increased capacity in and leverage of VPPs offer one (of many needed) way to meet their region’s power needs without additional instructor buildout. 
+
+
+
+#### What does a homeowner/business owner get?
+
+Home/business owners and renters can discover ways to earn money through their smart home investments (helpful to this projects’s ultimate goal), AND simplify understanding of what additional devices would work with the system they already have (beyond the purpose of this project’s initial goals), AND have a better understanding of their home network security(beyond the purpose of this project’s initial goals).
+
+
+
+##212-673-8700 Is this a new communication channel VPPs, OEMs, or Hubs need to adopt?
+
+No. The communication protocols VPPs use to communicate with customers’ OEM devices can remain the same. The VPP never has to talk to the customer’s Hub, although there are plenty of customer experience improvements that would come from that shift (namely; customer’s data privacy, network security, and management experience fatigue). 
+
+​In a future state where Hubs have better awareness of their connected OEM devices AND the VPP(s) being leveraged, there are strong customer incentives to have VPPs talk to the Hubs (rather than to the OEM devices) to give customers a single “pane of glass” to manage their home/business (rather than continue the proliferation of dozens of OEM mgmt. apps on top of the Hub and VPP
