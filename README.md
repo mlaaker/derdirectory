@@ -15,9 +15,9 @@ Imagine if your home-/business-level management layer (a Hub, like your Alexa, G
 
 
 ### API
-**Not yet available.** Once a reasonable corpus of devices, hubs, and VPPs are documented, an API will be made available to:
-* **Product** - _(input: product-name)_ return all details for a given product
-* **VPP support** - _(input: product-name, vpp-name)_ return an array of true/false for each market for whether the VPP supports this device type
+**Not yet available.** Once a reasonable corpus of devices, hubs, and VPPs are documented, an API will be made available for Hubs to query for:
+* **OEM Product info** - _(input: product-name)_ return all details for a given OEM’s product, and which VPPs for a given market support this device
+* **VPP support** - _(input: product-name, vpp-name)_ return an array of true/false for each market (for whether the VPP supports this device type) alongside the financial incentives offered
 * **Hub compatibility** - _(input: product-name, hub-name)_ return true/false for whether the hub supports this device type
 
 
@@ -67,4 +67,10 @@ Home/business owners and renters can discover ways to earn money through their s
 
 No. The communication protocols VPPs use to communicate with customers’ OEM devices can remain the same. The VPP never has to talk to the customer’s Hub, although there are plenty of customer experience improvements that would come from that shift (namely; customer’s data privacy, network security, and management experience fatigue). 
 
-​In a future state where Hubs have better awareness of their connected OEM devices AND the VPP(s) being leveraged, there are strong customer incentives to have VPPs talk to the Hubs (rather than to the OEM devices) to give customers a single “pane of glass” to manage their home/business (rather than continue the proliferation of dozens of OEM mgmt. apps on top of the Hub and VPP
+​In a future state where Hubs have better awareness of their connected OEM devices AND the VPP(s) being leveraged, there are strong customer incentives to have VPPs talk to the Hubs (rather than to the OEM devices) to give customers a single “pane of glass” to manage their home/business (rather than continue the proliferation of dozens of OEM management apps on top of the Hub and VPP.
+
+
+
+#### Shouldn't Hubs simply leverage the Matter Distributed Compliance Ledger (DCL) instead?
+
+The [Matter Distributed Compliance Ledger](https://webui.dcl.csa-iot.org/) lets manufacturers post a device's certification status and detailed production information. However, the DCL is only for Matter devices (and most DERs presently are not Matter compliant). Further, it has no mechanism for listing and understanding a device's VPP support. For Matter devices registered in the DER Directory, the DCL’s Vendor ID string can be supplied to connect the two sources. 
