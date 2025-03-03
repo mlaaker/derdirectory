@@ -5,7 +5,7 @@
 
 DER Directory is a **programmatically-accessible catalo**g of the various interconnection and management opportunities as well as security characteristics of Distributed Energy Resources (DER) devices (whether for consumer or commercial usage) to outline which products may or may not work with your smart home network (Hubs) and/or VPP provider(s). By exposing this catalog in this manner, anyone can create/edit device, hub, and VPP 'recipes' to ensure the community has the latest information on these devices' capabilities and connections. 
 
-![Diagram of how DER Directory fits into ecosystem](/mlaaker/derdirectory/blob/main/DERdirectory-diagram.svg}
+![Diagram of how DER Directory fits into ecosystem](/mlaaker/derdirectory/blob/main/DERdirectory-diagram.svg)
 
 ### Uses
 Imagine if your home-/business-level management layer (a Hub, like your Alexa, Google Home, or Home Assistant), which already knows all/most of the devices in your home, could 
