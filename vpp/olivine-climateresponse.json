@@ -6,6 +6,10 @@
   "supportedDevices": {
     "outlets":["tp-link-kasa-kp125m"],
     "water-heaters":["",""],
-    "thermostats":["",""],
+    "thermostats":["",""]
+  },
+  "contact": {
+    "phone": "1-866-306-0829",
+    "email": "ask@climateresponse.com"
   }
 }
