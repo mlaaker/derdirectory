@@ -42,34 +42,39 @@ Value from this project can be seen in a number of ways (see FAQs below), but fo
 
 
 
-#### What does an device manufacturer (OEM) get?
+#### Who gets what out of this solution?
 
-By contributing up-to-date information about their devices, OEMs can increase the sales of their devices (and the kickbacks VPPs many times offer them from successful enrollments) by increasing the chances of home/business owners discovering their products are available, compatible with their systems, and verified to work with a local VPP. 
+##### What does a homeowner/business owner get?
+
+Home/business owners and renters can discover ways to earn money through their *existing* smart home investments (helpful to this projects’s ultimate goal) without needing to do lots of research, AND simplify understanding of what additional devices would work with the system they already have (beyond the purpose of this project’s initial goals), AND have a better understanding of their home network security(beyond the purpose of this project’s initial goals), AND simplify enrollment and configuration of their VPP setup using an interface they already use and trust (e.g. their smart home hub).
+
+
+##### What does a smart home hub manufactuer get?
+
+Smart home hubs develop an even "stickier" app surface for home/business owners as VPP enrollment and configuration can now occur *within* the smart home hub's application, AND they can earn referral dollars from the VPPs (who already pay referral kickbacks) by passing *better-qualified customers* (people from a known region, a known utility, and with known working devices that match the VPP's profile). 
+
+
+##### What does an device manufacturer (OEM) get?
+
+By contributing up-to-date information about their devices, OEMs can increase the sales of their devices (and the kickbacks VPPs many times offer them from successful enrollments) by increasing the chances of home/business owners discovering their products are available, compatible with their systems, and verified to work with a local VPP. Since many VPPs already pay OEMs a per-enrollment and per-yearly-usage fee, this increases OEM profits by having more OEM devices enrolled in more VPP programs.
 ​
 
-#### What does a VPP get? 
+##### What does a VPP get? 
 
-By enabling Hubs to expose awareness of available VPPs to customers, AND attestation of which devices they currently own which can be leveraged by the VPP, AND then surface which additional OEM devices could further increase their earnings while working with the customer’s system 
-
-
-
-#### What does a utility get?
-
-To meet the dramatic increase in power generation needs in a world where utilities physically cannot build the infrastructure fast enough, increased capacity in and leverage of VPPs offer one (of many needed) way to meet their region’s power needs without additional instructor buildout. 
+By enabling Hubs to expose awareness of available VPPs to customers, AND attestation of which devices they currently own which can be leveraged by the VPP, AND then surface which additional OEM devices could further increase their earnings while working with the customer’s system. Further, the VPP can spend less time hunting qualified customers, and connect with them in an app/surface they already use (the smart home hub app/interfaces). 
 
 
+##### What does a utility get?
 
-#### What does a homeowner/business owner get?
-
-Home/business owners and renters can discover ways to earn money through their smart home investments (helpful to this projects’s ultimate goal), AND simplify understanding of what additional devices would work with the system they already have (beyond the purpose of this project’s initial goals), AND have a better understanding of their home network security(beyond the purpose of this project’s initial goals).
+Utilities get the upside of better meeting the dramatic increase in power generation needs in a world where utilities physically cannot build the infrastructure fast enough. VPPs offer one (of many needed) way to meet their region’s power needs without additional instructor buildout, and this solution drives more VPP enrollment to support the grid's explosive growth needs.
 
 
 
 #### Is this a new communication channel VPPs, OEMs, or Hubs need to adopt?
 
-No. The communication protocols VPPs use to communicate with customers’ OEM devices can remain the same. The VPP never has to talk to the customer’s Hub, although there are plenty of customer experience improvements that would come from that shift (namely; customer’s data privacy, network security, and management experience fatigue). 
+No. The *communication standards and protocols* VPPs use to communicate with customers’ OEM devices can remain the same. The VPP never has to talk to the customer’s Hub, although there are plenty of customer experience improvements that would come from that shift (namely; customer’s data privacy, network security, and management experience fatigue). 
 
-​In a future state where Hubs have better awareness of their connected OEM devices AND the VPP(s) being leveraged, there are strong customer incentives to have VPPs talk to the Hubs (rather than to the OEM devices) to give customers a single “pane of glass” to manage their home/business (rather than continue the proliferation of dozens of OEM management apps on top of the Hub and VPP.
+​In a future state where Hubs have better awareness of their connected OEM devices AND the VPP(s) being leveraged, there are **strong customer incentives** to have VPPs talk to the Hubs (rather than to each of the OEM devices) to give customers a single “pane of glass” to manage their home/business (rather than continue the proliferation of dozens of OEM management apps on top of the Hub and VPP. This would also improve user privacy, user security (one door, the hub, to secure, rather than each and every OEM device), user overhead (manage energy generation/demand reduction in one interface rather than dozens), and more. 
 
 
 
