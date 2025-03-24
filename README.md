@@ -81,3 +81,11 @@ No. The *communication standards and protocols* VPPs use to communicate with cus
 #### Shouldn't Hubs simply leverage the Matter Distributed Compliance Ledger (DCL) instead?
 
 The [Matter Distributed Compliance Ledger](https://webui.dcl.csa-iot.org/) lets manufacturers post a device's certification status and detailed production information. However, the DCL is only for Matter devices (and most DERs presently are not Matter compliant). Further, it has no mechanism for listing and understanding a device's VPP support. For Matter devices registered in the DER Directory, the DCL’s Vendor ID string can be supplied to connect the two sources. 
+
+
+#### Doesn't Kraken's Mercury Consortium certification solve this?
+
+[Mercury](https://kraken.tech/mercury) is certainly useful, but 
+1. isn't ready for most devices in most markets today (as it relies on Utilities, VPPs, and OEMs all supporting their stack)
+2. relies on the biggest players to come together and leaves the community and home/business owners to simply be better informed of their purchase decisions and better manage their devices). 
+3. leaves the thriving incentivized DIY community's resourcefulness and expertise out of the picture
