@@ -7,7 +7,7 @@ VPP Connect is a **programmatically-accessible catalo**g of the various intercon
 
 
 ### Uses
-<img alt="Diagram of how VPP Connect fits into ecosystem" src="./DERdirectory-diagram.svg" width="384" height="286" align="right" style="border: none; padding: 0 0 20 20" /> 
+<img alt="Diagram of how VPP Connect fits into ecosystem" src="./service-diagram.svg" width="384" height="286" align="right" style="border: none; padding: 0 0 20 20" /> 
 
 Imagine if your home-/business-level management layer (a Hub, like your Alexa, Google Home, or Home Assistant), which already knows all/most of the devices in your home, could: 
 * identify which of your devices in your home/business are **eligible for enrollment in an VPP** to _earn you money_ (whether by adjusting your temperature or reducing power during peak system loads)
