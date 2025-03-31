@@ -1,13 +1,13 @@
-# DER Directory
-## _A [Homebrew-style](https://brew.sh/) B2B(2C) catalog & API of connected home/business energy-making/saving devices & the virtual power plants with which they can connect_
+# VPP Connect
+## _An API service of connected home/business energy-making/saving devices & the virtual power plants with which they can connect (powered by a [Homebrew-style](https://brew.sh/) B2B(2C) catalog)_
 
 **Problem statement:** Understanding whether any of your existing home or business' devices can connect with money-returning [Virtual Power Plant (VPP)](https://rmi.org/clean-energy-101-virtual-power-plants/) services, much less which _potential_ devices could work in your existing setup _and_ earn you money is a maddeningly complex, regionally different, byzantine process that is not conducive to _expediting humanity’s move to clean all-electric power & a grid that can support that sizable shift._
 
-DER Directory is a **programmatically-accessible catalo**g of the various interconnection and management opportunities as well as security characteristics of Distributed Energy Resources (DER) devices (whether for consumer or commercial usage) to outline which products may or may not work with your smart home network (Hubs) and/or VPP provider(s). By exposing this catalog in this manner, anyone can create/edit device, hub, and VPP 'recipes' to ensure the community has the latest information on these devices' capabilities and connections. 
+VPP Connect is a **programmatically-accessible catalo**g of the various interconnection and management opportunities as well as security characteristics of Distributed Energy Resources (DER) devices (whether for consumer or commercial usage) to outline which products may or may not work with your smart home network (Hubs) and/or VPP provider(s). By exposing this catalog in this manner, anyone can create/edit device, hub, and VPP 'recipes' to ensure the community has the latest information on these devices' capabilities and connections. 
 
 
 ### Uses
-<img alt="Diagram of how DER Directory fits into ecosystem" src="./DERdirectory-diagram.svg" width="384" height="286" align="right" style="border: none; padding: 0 0 20 20" /> 
+<img alt="Diagram of how VPP Connect fits into ecosystem" src="./DERdirectory-diagram.svg" width="384" height="286" align="right" style="border: none; padding: 0 0 20 20" /> 
 
 Imagine if your home-/business-level management layer (a Hub, like your Alexa, Google Home, or Home Assistant), which already knows all/most of the devices in your home, could: 
 * identify which of your devices in your home/business are **eligible for enrollment in an VPP** to _earn you money_ (whether by adjusting your temperature or reducing power during peak system loads)
@@ -80,7 +80,7 @@ No. The *communication standards and protocols* VPPs use to communicate with cus
 
 #### Shouldn't Hubs simply leverage the Matter Distributed Compliance Ledger (DCL) instead?
 
-The [Matter Distributed Compliance Ledger](https://webui.dcl.csa-iot.org/) lets manufacturers post a device's certification status and detailed production information. However, the DCL is only for Matter devices (and most DERs presently are not Matter compliant). Further, it has no mechanism for listing and understanding a device's VPP support. For Matter devices registered in the DER Directory, the DCL’s Vendor ID string can be supplied to connect the two sources. 
+The [Matter Distributed Compliance Ledger](https://webui.dcl.csa-iot.org/) lets manufacturers post a device's certification status and detailed production information. However, the DCL is only for Matter devices (and most DERs presently are not Matter compliant). Further, it has no mechanism for listing and understanding a device's VPP support. For Matter devices registered in the VPP Connect, the DCL’s Vendor ID string can be supplied to connect the two sources. 
 
 
 #### Doesn't Kraken's Mercury Consortium certification solve this?
